@@ -19,7 +19,6 @@ class ReplyForm extends React.Component {
   handleSubmit(e) {
     e.preventDefault();
     this.props.newReply(this.state);
-    // this.props.history.push(`/api/comments/${this.props.comment.id}`);
     this.state = {
       body: "",
       comment_id: "",

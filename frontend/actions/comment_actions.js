@@ -15,13 +15,6 @@ export const receiveAComment = comment => ({
   comment,
 });
 
-
-
-// export const errorComment = error => ({
-//   type: ERROR_COMMENT,
-//   error,
-// });
-
 export const requestAllComments = () => (dispatch) => {
   return APIUtil.fetchAllComments()
     .then(comments => dispatch(receiveAllComments(comments)));

@@ -34,9 +34,6 @@ class ReplyIndex extends React.Component {
       <div>
         <br/>
         <ul>{replies}</ul>
-        <form>
-
-      </form>
       </div>
 
     );

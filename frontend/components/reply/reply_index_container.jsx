@@ -7,8 +7,6 @@ import ReplyIndex from './reply_index';
 const mapStateToProps = (state, OwnProps) => {
   return {
     replies: selectAllReplies(OwnProps.comment),
-    // question: state.questions.currentQuestion,
-    // question: state.questions[ownProps.answerId],
     comment: OwnProps.comment,
     errors: state.errors
 

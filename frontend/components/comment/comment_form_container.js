@@ -1,5 +1,4 @@
 import { connect } from 'react-redux';
-// import { selectAllPosts } from '../reducers/selectors';
 import {  newComment } from '../../actions/comment_actions';
 import CommentForm from './comment_form';
 
